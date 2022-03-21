@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Inter;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./react.jpg') no-repeat center center fixed;
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+}
+
+/* ============= Navbar ============== */
+
+nav {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(25, 27, 27);
+  padding: 10px;
+  align-items: center;
+}
+nav h3 {
+  margin-right: 50px;
+  color: rgb(211, 195, 195);
+}
+nav div {
+  display: flex;
+  padding-left: 20px;
+}
+nav div h1 {
+  font-size: 25px;
+  padding-left: 20px;
+  color: rgb(115, 223, 223);
+}
+
+/* ============== main section ================= */
+
+main {
+    /* margin : auto; */
+  color: aliceblue;
+  padding: 50px;
+  text-align: center;
+}
+main h1 {
+    margin-left: 40px;
+  font-size: 40px;
+}
+main ul {
+  list-style: none;
+}
+main ul li {
+  font-size: 20px;
+  margin-top: 10px;
+  /* font-weight:bold; */
+  /* margin-left: 20px; */
+}
+main ul li::before {
+  content: "• ";
+  color: rgb(115, 223, 223);
+  margin-right: 10px;
+  font-size: 30px;
+}
